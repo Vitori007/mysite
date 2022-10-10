@@ -39,7 +39,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0em 0;
 }
 
 /* Grouping content
@@ -349,7 +349,6 @@ template {
 }
 
 /*----------------------------------------------------------*/
-
 .container {
   max-width: 750px;
   margin-left: auto;
@@ -372,6 +371,7 @@ a {
 .head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -384,7 +384,7 @@ a {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 
 nav a {
@@ -396,3 +396,90 @@ nav a {
   margin-left: 21px;
   margin-right: 21px;
 }
+
+.head > a:last-child {
+  width: 123px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 80px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 138px;
+}
+
+header p {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form p {
+  width: 575px;
+  height: 67px;
+  border-radius: 71px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+form p img {
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  left: 29px;
+  top: 26px;
+
+}
+
+form input {
+  background-color: none;
+  border: none;
+  text-align: left;
+  border-radius: 71px;
+  outline: none;
+}
+
+form .email {
+  padding-left: 74px;
+}
+
+form .submit {
+  width: 171px;
+  height: 54px;
+  background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
+  border-radius: 42px;
+  margin-right: 6px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+form .submit:hover {
+  background: linear-gradient(106.75deg, #13233f 0%, #5750cb 100%);
+}
+
