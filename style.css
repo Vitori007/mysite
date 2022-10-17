@@ -483,3 +483,70 @@ form .submit:hover {
   background: linear-gradient(106.75deg, #13233f 0%, #5750cb 100%);
 }
 
+.brands {
+  padding-top: 100px;
+}
+
+.brands div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands div img {
+  width: 130px;
+  height: 40px;
+}
+
+.services h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.services .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services article {
+  width: 28%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px 15px;
+  height: 280px;
+}
+
+.services article div {
+  width: 64px;
+  height: 64px;
+  background: #E3E2FD;
+  border-radius: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services article h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.services article a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0F0BC7;
+}
